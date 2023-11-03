@@ -17,7 +17,10 @@ fn main() {
             .read_line(&mut guess)
             .expect("fail to read the column");
 
-        let guess: u32 = guess.trim().parse().expect("Input a number!");
+        let guess: u32 = guess
+            .trim()
+            .parse()
+            .expect("Input a number!");
 
         // println!("{guess}");
         match guess.cmp(&secret_num) {
