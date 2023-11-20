@@ -1,0 +1,1 @@
+/workspaces/rust/rust-test/docs_examples/modules/restaurant/target/debug/examples/super: /workspaces/rust/rust-test/docs_examples/modules/restaurant/examples/super.rs /workspaces/rust/rust-test/docs_examples/modules/restaurant/src/lib.rs
