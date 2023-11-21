@@ -1,6 +1,7 @@
 mod back_of_house {
     pub struct Breakfast {
         pub toast: String,
+        #[allow(dead_code)]
         seasonal_fruit: String,
     }
 
@@ -12,7 +13,7 @@ mod back_of_house {
             }
         }
     }
-
+    #[derive(Debug)]
     pub enum Appetizer {
         Soup,
         Salad,
@@ -41,6 +42,8 @@ pub fn eat_at_restaurant() {
     // 接下來這行取消註解的話，我們就無法編譯通過
     // 我們無法擅自更改餐點搭配的季節水果
     // meal.seasonal_fruit = String::from("藍莓");
+    println!("Order1 do {:?}.", order1);
+    println!("Order2 do {:?}.", order2);
 
     ////// FRONT OF HOUSE //////
     hosting::add_to_waitlist();
