@@ -1,1 +1,1 @@
-/workspaces/rust/rust-test/examples/restaurant/target/debug/librestaurant.rlib: /workspaces/rust/rust-test/examples/restaurant/src/lib.rs
+/workspaces/rust/rust-test/docs_examples/modules/restaurant/target/debug/librestaurant.rlib: /workspaces/rust/rust-test/docs_examples/modules/restaurant/src/lib.rs
