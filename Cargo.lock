@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "rust-test"
 version = "0.1.0"
+dependencies = [
+ "variable",
+]
+
+[[package]]
+name = "variable"
+version = "0.1.0"
