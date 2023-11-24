@@ -8,7 +8,7 @@ fn main() {
     println!("{:?}", username_2);
 }
 
-// 傳播錯誤
+// 傳播錯誤：原本方法縛拏又麻煩
 fn read_username_from_file_1() -> Result<String, io::Error> {
     let username_file_result = File::open("../data/hello.txt");
 
