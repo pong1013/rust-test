@@ -1,0 +1,1 @@
+/workspaces/rust/rust-test/docs_examples/traits/target/debug/libtraits.rlib: /workspaces/rust/rust-test/docs_examples/traits/src/lib.rs /workspaces/rust/rust-test/docs_examples/traits/src/summary/news_summary.rs /workspaces/rust/rust-test/docs_examples/traits/src/summary/tweet_summary.rs /workspaces/rust/rust-test/docs_examples/traits/src/summary.rs
